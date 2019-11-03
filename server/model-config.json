@@ -14,25 +14,25 @@
     ]
   },
   "User": {
-    "dataSource": "db"
+    "dataSource": "mySqlDs"
   },
   "AccessToken": {
-    "dataSource": "db",
+    "dataSource": "mySqlDs",
     "public": false
   },
   "ACL": {
-    "dataSource": "db",
+    "dataSource": "mySqlDs",
     "public": false
   },
   "RoleMapping": {
-    "dataSource": "db",
+    "dataSource": "mySqlDs",
     "public": false,
     "options": {
       "strictObjectIDCoercion": true
     }
   },
   "Role": {
-    "dataSource": "db",
+    "dataSource": "mySqlDs",
     "public": false
   }
 }
