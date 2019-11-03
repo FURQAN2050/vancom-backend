@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "mySqlDs",
     "public": false
+  },
+  "package": {
+    "dataSource": "mySqlDs",
+    "public": true
   }
 }
