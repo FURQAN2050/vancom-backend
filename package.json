@@ -8,9 +8,13 @@
   "scripts": {
     "lint": "eslint .",
     "start": "node .",
-    "posttest": "npm run lint && npm audit"
+    "posttest": "npm run lint && npm audit",
+    "build:sdk": "./node_modules/.bin/lb-sdk server/server ../wancom-UI-Frontend/src/app/shared/sdk"
   },
   "dependencies": {
+    "@angular/http": "^7.2.15",
+    "@mean-expert/loopback-component-realtime": "^1.0.2",
+    "@mean-expert/loopback-sdk-builder": "^2.3.1",
     "compression": "^1.0.3",
     "cors": "^2.5.2",
     "helmet": "^3.10.0",
