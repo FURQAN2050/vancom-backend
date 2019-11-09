@@ -46,5 +46,9 @@
   "subDealer": {
     "dataSource": "mySqlDs",
     "public": true
+  },
+  "subDealerPackage": {
+    "dataSource": "mySqlDs",
+    "public": true
   }
 }

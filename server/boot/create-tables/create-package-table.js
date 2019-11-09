@@ -21,5 +21,10 @@ module.exports = function (app) {
         if (err) throw err;
         console.log("Sub Dealer Table Created")
     });
+    
+    ds.autoupdate('subDealerPackage', function (err) {
+        if (err) throw err;
+        console.log("Sub Dealer Packages Table Created")
+    });
 
 };
