@@ -14,7 +14,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "subDealers": {
+      "type": "hasMany",
+      "model": "subDealer",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
