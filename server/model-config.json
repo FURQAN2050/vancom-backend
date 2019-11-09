@@ -38,5 +38,13 @@
   "package": {
     "dataSource": "mySqlDs",
     "public": true
+  },
+  "mainDealer": {
+    "dataSource": "mySqlDs",
+    "public": true
+  },
+  "subDealer": {
+    "dataSource": "mySqlDs",
+    "public": true
   }
 }

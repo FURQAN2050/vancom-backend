@@ -9,6 +9,17 @@ module.exports = function (app) {
     
     ds.autoupdate('package', function (err) {
         if (err) throw err;
-        console.log(" create package table")
+        console.log("Package Table Created")
     });
+
+    ds.autoupdate('mainDealer', function (err) {
+        if (err) throw err;
+        console.log("Main Dealer Table Created")
+    });
+    
+    ds.autoupdate('subDealer', function (err) {
+        if (err) throw err;
+        console.log("Sub Dealer Table Created")
+    });
+
 };
