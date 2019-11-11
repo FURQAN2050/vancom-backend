@@ -1,6 +1,6 @@
 {
   "name": "subDealerPackage",
-  "base": "package",
+  "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
@@ -14,7 +14,16 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "package": {
+      "type": "belongsTo",
+      "model": "package",
+      "foreignKey": "",
+      "options": {
+        "nestRemoting": true
+      }
+    }
+  },
   "acls": [],
   "methods": {}
 }
